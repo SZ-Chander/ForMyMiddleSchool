@@ -16,6 +16,8 @@ Then, the app will output the grouped table by automent.
  You can read the "使用手册" to learn more.Sorry for my poor English, it just have Chinese.
  
  # More
+ If you don't want to code, you can find the .exe file in the release.(Windows Only)
+ Mac app is coding.
  Thinks for your read.If you have any question, take the issues.
  
  God Bless You!
