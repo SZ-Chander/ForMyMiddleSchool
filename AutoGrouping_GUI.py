@@ -374,7 +374,7 @@ class MyFrame1 ( wx.Frame ):
 
 	# Virtual event handlers, overide them in your derived class
     def OpenDir_Click1( self, event ):
-        wildcard = 'All files(.csv)|.csv'
+        wildcard = 'All files(*.csv*)|*.csv*'
         dialog = wx.FileDialog(None,'select',os.getcwd(),'',wildcard,wx.FC_OPEN)
         if dialog.ShowModal() == wx.ID_OK:
             input_path = dialog.GetPath()
