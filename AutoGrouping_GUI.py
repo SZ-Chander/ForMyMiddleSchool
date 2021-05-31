@@ -267,7 +267,7 @@ def Group2CSV(Groups,path_use):
     FileName = str(NowTime.tm_year) + str(NowTime.tm_mon) + str(NowTime.tm_mday) + str(NowTime.tm_hour) +str(NowTime.tm_min) + str(NowTime.tm_sec)+".csv"
     NewCsv = p.join(path_use,FileName)
     
-    with open(NewCsv,'w',encoding='utf-8') as csv:
+    with open(NewCsv,'w') as csv:
         for n_line in table:
             csv.write(n_line)
     return 1
